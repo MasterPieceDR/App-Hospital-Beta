@@ -1,0 +1,44 @@
+/* Tabla general */
+.table {
+    -fx-font-size: 14px;
+    -fx-background-color: white;
+    -fx-border-color: #ccc;
+    -fx-padding: 12px;
+}
+
+/* Cabecera de columnas */
+.column-header-background {
+    -fx-background-color: #2e8bfa;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-size: 32px;
+    -fx-border-width: 0 0 1 1;
+    -fx-border-color: #ddd;
+    -fx-background-color: #2e8bfa;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+/* Celdas */
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #e0e0e0 transparent;
+    -fx-padding: 5px;
+}
+
+.table-cell {
+    -fx-text-fill: #333;
+    -fx-padding: 8px;
+}
+
+/* Fila seleccionada */
+.table-row-cell:selected {
+    -fx-background-color: #cce5ff;
+    -fx-text-fill: black;
+}

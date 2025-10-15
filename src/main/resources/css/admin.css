@@ -1,0 +1,37 @@
+/* Título del panel */
+.label-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+/* Botones de cada tabla */
+.tabla-button {
+    -fx-background-color: linear-gradient(to bottom, #2196F3, #0D47A1);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 12 22;
+    -fx-pref-width: 160;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 4, 0.3, 2, 2);
+    -fx-border-color: #1565C0;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+}
+
+/* Botón de cerrar sesión */
+.logout-button {
+    -fx-background-color: #f44336;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 3, 0.3, 1, 1);
+    -fx-border-color: #c62828;
+    -fx-border-width: 1;
+    -fx-border-radius: 10;
+}
